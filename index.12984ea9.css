@@ -247,7 +247,7 @@ a {
 
 @media (width <= 700px) {
   .main-section__title-wrapper h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
 }
 
@@ -1370,6 +1370,17 @@ a {
   color: #c90049;
   border-color: #c90049;
   font-weight: 700;
+}
+
+.js__burger-btn--active svg rect {
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s;
+}
+
+.js__burger-btn--active svg rect:first-child {
+  opacity: 0;
+  visibility: hidden;
 }
 
 @media (width <= 600px) {

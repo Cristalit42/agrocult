@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         btn.addEventListener('click', function(e) {
             e.preventDefault();
             burber.classList.toggle('burber--visible');
+            btn.classList.toggle('js__burger-btn--active');
         });
     });
 });
